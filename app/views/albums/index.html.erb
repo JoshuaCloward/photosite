@@ -1,0 +1,12 @@
+<h1> Index </h1>
+
+
+<% @albums.each do |album| %>
+
+<ul>
+  <li><%= link_to(album.name, album_path(album.id)) %></li>
+  <li><%= link_to('Edit', edit_album_path(album.id)) %></li>
+  <li><%= link_to('Destroy', album_path(album.id), method: :delete, 'data-confirm' => 'Are you Sure?') %></li>
+</ul>
+
+<% end %>
