@@ -1,4 +1,4 @@
 
 <% @albums.each do |album| %>
-  <%= link_to(album.name, albums_path(album.id) %> 
+  <%= link_to(album.name, albums_path(album.id), class: 'sidenav') %> 
 <% end %>
