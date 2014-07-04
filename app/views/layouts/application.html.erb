@@ -7,15 +7,16 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-  <div id="container">
+  <div class="container">
+    <header>
     <div id='logo'>
-
+      <img src="doorspeaker2.jpg">
     </div>
     <div id='header'>
-
+      <h1> Mandi's Site </h1>
     </div>
-
-    <div id='nav'>
+  </header>
+    <div class='nav'>
       <%= link_to('Home Page', root_path, class: "links") %>
         <span>&nbsp;|&nbsp;</span>
       <%= link_to('Albums', albums_path, class: "links") %>
@@ -28,7 +29,7 @@
     </div>
 
     <div id='albumcolumn'>
-      <%= render 'albums' %>
+      <%#= render 'albums' %>
     </div>
 
   </div>

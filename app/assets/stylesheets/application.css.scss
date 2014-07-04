@@ -6,3 +6,62 @@ body{
   background-image: url('bedge_grunge_@2X.png');
 
 }
+
+.container{
+  padding: 20px;
+}
+
+#main-content{
+  margin: 30px;
+  border-left: solid 1px;
+  border-right: solid 1px;
+}
+
+
+header{
+  margin-top: 40px;
+  text-align: center;
+}
+
+#logo{
+  display: inline;
+  margin-right: 30px;
+  padding: 20px;
+  margin: 10px;
+
+}
+
+#logo img{
+  display: inline;
+}
+
+#header {
+  display: inline;
+  padding: 20px;
+  text-align: center;
+  margin-top: 50px;
+
+}
+
+#header h1{
+  padding: 20px;
+  margin-top: 30px;
+  display: inline
+}
+
+
+.nav{
+text-align: center;
+padding: 20px;
+
+}
+
+.links {
+  padding: 15px;
+  color: black;
+}
+
+.links:hover{
+  color: #806517;
+
+}
